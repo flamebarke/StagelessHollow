@@ -1,0 +1,7 @@
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\obj\x64\Release\HollowInjection.csproj.CoreCompileInputs.cache
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\bin\x64\Release\HollowInjection.exe.config
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\bin\x64\Release\HollowInjection.exe
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\bin\x64\Release\HollowInjection.pdb
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\obj\x64\Release\HollowInjection.exe
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\obj\x64\Release\HollowInjection.pdb
+C:\Users\Redteam\Source\Repos\HollowInjection\HollowInjection\obj\x64\Release\HollowInjection.csproj.AssemblyReference.cache
