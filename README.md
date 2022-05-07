@@ -1,7 +1,7 @@
 # StagelessHollow
-Multiple C# based tools that perform the Process Hollowing injection technique, can hold- or remotely fetch  base64 encoded shellcode, doesn't require any arguments to operate and has some additional AV heuristic bypass techniques baked in. Furthermore, the ParentProcessInjection tool performs the parent spoofing technique to further obfuscate its presence. 
+Multiple C# based tools that perform the Process Hollowing injection technique, can hold- or remotely fetch base64 encoded shellcode, doesn't require any arguments to operate and have some additional AV heuristic bypass techniques baked in. Furthermore, the ParentProcessInjection tool performs the parent spoofing technique to further obfuscate its presence. 
 
-### Prepare & Compile tool:
+### Prepare & compile tool:
 <b>ParentHollowInjection:</b>
 ```
 - 1. Open the tool's project file in Visual Studio.
@@ -33,7 +33,7 @@ Invoke-WmiMethod –ComputerName <FQDN target system> -Class win32_process -Name
 
 <b>HollowInjection:</b>
 
-Run tool from disk with optional argument:
+Run tool from disk with optional argument to specify the program that is used to inject the shellcode into:
 ```
 C:\Windows\Temp\HollowInjection.exe [/program:C:\<path to program.exe>]
 ```
@@ -43,7 +43,7 @@ Load tool from remote location and execute in memory with argument specified:
 ```
 
 ### Credit & References:
-This code is <b>heavily</b> based on the [ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection) project which is on itself based on the Process Hollowing code from [Aaron Bray](https://github.com/ambray) and [Rasta Mouse](https://github.com/rasta-mouse). 
+The code in this project is <b>heavily</b> based on the [ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection) project which is based on the Process Hollowing code from [Aaron Bray](https://github.com/ambray) and [Rasta Mouse](https://github.com/rasta-mouse). 
 
 
 
